@@ -1,0 +1,64 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 1 | 10 |       NEW |     READY |
+|                 1 |101 |       NEW |     READY |
+|                 1 |102 |       NEW |     READY |
+|                 1 |102 |     READY |   RUNNING |
+|                 6 |  4 |       NEW |     READY |
+|                 6 | 42 |       NEW |     READY |
+|                53 |102 |   RUNNING |TERMINATED |
+|                53 | 42 |     READY |   RUNNING |
+|               117 | 42 |   RUNNING |   WAITING |
+|               117 |  4 |     READY |   RUNNING |
+|               180 | 42 |   WAITING |     READY |
+|               181 |  4 |   RUNNING |   WAITING |
+|               181 | 42 |     READY |   RUNNING |
+|               244 |  4 |   WAITING |     READY |
+|               245 | 42 |   RUNNING |   WAITING |
+|               245 |  4 |     READY |   RUNNING |
+|               273 |  4 |   RUNNING |TERMINATED |
+|               273 |101 |     READY |   RUNNING |
+|               308 | 42 |   WAITING |     READY |
+|               325 |101 |   RUNNING |TERMINATED |
+|               325 | 42 |     READY |   RUNNING |
+|               389 | 42 |   RUNNING |   WAITING |
+|               389 | 10 |     READY |   RUNNING |
+|               394 | 10 |   RUNNING |TERMINATED |
+|               452 | 42 |   WAITING |     READY |
+|               452 | 42 |     READY |   RUNNING |
+|               516 | 42 |   RUNNING |   WAITING |
+|               579 | 42 |   WAITING |     READY |
+|               579 | 42 |     READY |   RUNNING |
+|               643 | 42 |   RUNNING |   WAITING |
+|               706 | 42 |   WAITING |     READY |
+|               706 | 42 |     READY |   RUNNING |
+|               770 | 42 |   RUNNING |   WAITING |
+|               833 | 42 |   WAITING |     READY |
+|               833 | 42 |     READY |   RUNNING |
+|               897 | 42 |   RUNNING |   WAITING |
+|               960 | 42 |   WAITING |     READY |
+|               960 | 42 |     READY |   RUNNING |
+|              1024 | 42 |   RUNNING |   WAITING |
+|              1087 | 42 |   WAITING |     READY |
+|              1087 | 42 |     READY |   RUNNING |
+|              1151 | 42 |   RUNNING |   WAITING |
+|              1214 | 42 |   WAITING |     READY |
+|              1214 | 42 |     READY |   RUNNING |
+|              1278 | 42 |   RUNNING |   WAITING |
+|              1341 | 42 |   WAITING |     READY |
+|              1341 | 42 |     READY |   RUNNING |
+|              1405 | 42 |   RUNNING |   WAITING |
+|              1468 | 42 |   WAITING |     READY |
+|              1468 | 42 |     READY |   RUNNING |
+|              1532 | 42 |   RUNNING |   WAITING |
+|              1595 | 42 |   WAITING |     READY |
+|              1595 | 42 |     READY |   RUNNING |
+|              1659 | 42 |   RUNNING |   WAITING |
+|              1722 | 42 |   WAITING |     READY |
+|              1722 | 42 |     READY |   RUNNING |
+|              1786 | 42 |   RUNNING |   WAITING |
+|              1849 | 42 |   WAITING |     READY |
+|              1849 | 42 |     READY |   RUNNING |
+|              1875 | 42 |   RUNNING |TERMINATED |
++------------------------------------------------+

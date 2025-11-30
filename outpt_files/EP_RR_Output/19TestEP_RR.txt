@@ -1,0 +1,191 @@
++------------------------------------------------+
+|Time of Transition |PID | Old State | New State |
++------------------------------------------------+
+|                 1 | 10 |       NEW |     READY |
+|                 1 |101 |       NEW |     READY |
+|                 1 |102 |       NEW |     READY |
+|                 1 |1022 |       NEW |     READY |
+|                 1 | 10 |     READY |   RUNNING |
+|                 6 | 10 |   RUNNING |TERMINATED |
+|                 6 |  4 |       NEW |     READY |
+|                 6 | 42 |       NEW |     READY |
+|                 6 | 43 |       NEW |     READY |
+|                 6 |  4 |     READY |   RUNNING |
+|                63 | 45 |       NEW |     READY |
+|                70 |  4 |   RUNNING |   WAITING |
+|                70 | 42 |     READY |   RUNNING |
+|               133 |  4 |   WAITING |     READY |
+|               133 | 42 |   RUNNING |     READY |
+|               133 |  4 |     READY |   RUNNING |
+|               161 |  4 |   RUNNING |TERMINATED |
+|               161 | 42 |     READY |   RUNNING |
+|               162 | 42 |   RUNNING |   WAITING |
+|               162 | 43 |     READY |   RUNNING |
+|               225 | 42 |   WAITING |     READY |
+|               225 | 43 |   RUNNING |     READY |
+|               225 | 42 |     READY |   RUNNING |
+|               289 | 42 |   RUNNING |   WAITING |
+|               289 | 43 |     READY |   RUNNING |
+|               290 | 43 |   RUNNING |   WAITING |
+|               290 | 45 |     READY |   RUNNING |
+|               352 | 43 |   WAITING |     READY |
+|               352 | 45 |   RUNNING |     READY |
+|               352 | 42 |     READY |   RUNNING |
+|               353 | 43 |   WAITING |     READY |
+|               416 | 42 |   RUNNING |   WAITING |
+|               416 | 43 |     READY |   RUNNING |
+|               479 | 42 |   WAITING |     READY |
+|               479 | 43 |   RUNNING |     READY |
+|               479 | 42 |     READY |   RUNNING |
+|               543 | 42 |   RUNNING |   WAITING |
+|               543 | 43 |     READY |   RUNNING |
+|               544 | 43 |   RUNNING |   WAITING |
+|               544 | 45 |     READY |   RUNNING |
+|               546 | 45 |   RUNNING |   WAITING |
+|               546 |101 |     READY |   RUNNING |
+|               598 |101 |   RUNNING |TERMINATED |
+|               598 |102 |     READY |   RUNNING |
+|               606 | 43 |   WAITING |     READY |
+|               606 |102 |   RUNNING |     READY |
+|               606 | 42 |     READY |   RUNNING |
+|               607 | 45 |   WAITING |     READY |
+|               609 | 45 |   WAITING |     READY |
+|               670 | 42 |   RUNNING |   WAITING |
+|               670 | 43 |     READY |   RUNNING |
+|               733 | 42 |   WAITING |     READY |
+|               733 | 43 |   RUNNING |     READY |
+|               733 | 42 |     READY |   RUNNING |
+|               797 | 42 |   RUNNING |   WAITING |
+|               797 | 43 |     READY |   RUNNING |
+|               798 | 43 |   RUNNING |   WAITING |
+|               798 | 45 |     READY |   RUNNING |
+|               860 | 43 |   WAITING |     READY |
+|               860 | 45 |   RUNNING |     READY |
+|               860 | 42 |     READY |   RUNNING |
+|               861 | 43 |   WAITING |     READY |
+|               924 | 42 |   RUNNING |   WAITING |
+|               924 | 43 |     READY |   RUNNING |
+|               987 | 42 |   WAITING |     READY |
+|               987 | 43 |   RUNNING |     READY |
+|               987 | 42 |     READY |   RUNNING |
+|              1051 | 42 |   RUNNING |   WAITING |
+|              1051 | 43 |     READY |   RUNNING |
+|              1052 | 43 |   RUNNING |   WAITING |
+|              1052 | 45 |     READY |   RUNNING |
+|              1054 | 45 |   RUNNING |   WAITING |
+|              1054 |102 |     READY |   RUNNING |
+|              1098 |102 |   RUNNING |TERMINATED |
+|              1098 |1022 |     READY |   RUNNING |
+|              1114 | 43 |   WAITING |     READY |
+|              1114 |1022 |   RUNNING |     READY |
+|              1114 | 42 |     READY |   RUNNING |
+|              1115 | 45 |   WAITING |     READY |
+|              1117 | 45 |   WAITING |     READY |
+|              1178 | 42 |   RUNNING |   WAITING |
+|              1178 | 43 |     READY |   RUNNING |
+|              1241 | 42 |   WAITING |     READY |
+|              1241 | 43 |   RUNNING |     READY |
+|              1241 | 42 |     READY |   RUNNING |
+|              1305 | 42 |   RUNNING |   WAITING |
+|              1305 | 43 |     READY |   RUNNING |
+|              1306 | 43 |   RUNNING |   WAITING |
+|              1306 | 45 |     READY |   RUNNING |
+|              1368 | 43 |   WAITING |     READY |
+|              1368 | 45 |   RUNNING |     READY |
+|              1368 | 42 |     READY |   RUNNING |
+|              1369 | 43 |   WAITING |     READY |
+|              1432 | 42 |   RUNNING |   WAITING |
+|              1432 | 43 |     READY |   RUNNING |
+|              1495 | 42 |   WAITING |     READY |
+|              1495 | 43 |   RUNNING |     READY |
+|              1495 | 42 |     READY |   RUNNING |
+|              1559 | 42 |   RUNNING |   WAITING |
+|              1559 | 43 |     READY |   RUNNING |
+|              1560 | 43 |   RUNNING |   WAITING |
+|              1560 | 45 |     READY |   RUNNING |
+|              1562 | 45 |   RUNNING |   WAITING |
+|              1562 |1022 |     READY |   RUNNING |
+|              1598 |1022 |   RUNNING |TERMINATED |
+|              1622 | 43 |   WAITING |     READY |
+|              1622 | 42 |     READY |   RUNNING |
+|              1623 | 45 |   WAITING |     READY |
+|              1625 | 45 |   WAITING |     READY |
+|              1686 | 42 |   RUNNING |   WAITING |
+|              1686 | 43 |     READY |   RUNNING |
+|              1749 | 42 |   WAITING |     READY |
+|              1749 | 43 |   RUNNING |     READY |
+|              1749 | 42 |     READY |   RUNNING |
+|              1813 | 42 |   RUNNING |   WAITING |
+|              1813 | 43 |     READY |   RUNNING |
+|              1814 | 43 |   RUNNING |   WAITING |
+|              1814 | 45 |     READY |   RUNNING |
+|              1876 | 43 |   WAITING |     READY |
+|              1876 | 45 |   RUNNING |     READY |
+|              1876 | 42 |     READY |   RUNNING |
+|              1877 | 43 |   WAITING |     READY |
+|              1902 | 42 |   RUNNING |TERMINATED |
+|              1902 | 43 |     READY |   RUNNING |
+|              1966 | 43 |   RUNNING |   WAITING |
+|              1966 | 45 |     READY |   RUNNING |
+|              1968 | 45 |   RUNNING |   WAITING |
+|              2029 | 45 |   WAITING |     READY |
+|              2029 | 43 |     READY |   RUNNING |
+|              2031 | 45 |   WAITING |     READY |
+|              2093 | 43 |   RUNNING |   WAITING |
+|              2093 | 45 |     READY |   RUNNING |
+|              2156 | 43 |   WAITING |     READY |
+|              2156 | 45 |   RUNNING |     READY |
+|              2156 | 43 |     READY |   RUNNING |
+|              2220 | 43 |   RUNNING |   WAITING |
+|              2220 | 45 |     READY |   RUNNING |
+|              2221 | 45 |   RUNNING |   WAITING |
+|              2283 | 45 |   WAITING |     READY |
+|              2283 | 43 |     READY |   RUNNING |
+|              2284 | 45 |   WAITING |     READY |
+|              2347 | 43 |   RUNNING |   WAITING |
+|              2347 | 45 |     READY |   RUNNING |
+|              2410 | 43 |   WAITING |     READY |
+|              2410 | 45 |   RUNNING |     READY |
+|              2410 | 43 |     READY |   RUNNING |
+|              2474 | 43 |   RUNNING |   WAITING |
+|              2474 | 45 |     READY |   RUNNING |
+|              2475 | 45 |   RUNNING |   WAITING |
+|              2537 | 45 |   WAITING |     READY |
+|              2537 | 43 |     READY |   RUNNING |
+|              2538 | 45 |   WAITING |     READY |
+|              2601 | 43 |   RUNNING |   WAITING |
+|              2601 | 45 |     READY |   RUNNING |
+|              2664 | 43 |   WAITING |     READY |
+|              2664 | 45 |   RUNNING |     READY |
+|              2664 | 43 |     READY |   RUNNING |
+|              2728 | 43 |   RUNNING |   WAITING |
+|              2728 | 45 |     READY |   RUNNING |
+|              2729 | 45 |   RUNNING |   WAITING |
+|              2791 | 45 |   WAITING |     READY |
+|              2791 | 43 |     READY |   RUNNING |
+|              2792 | 45 |   WAITING |     READY |
+|              2817 | 43 |   RUNNING |TERMINATED |
+|              2817 | 45 |     READY |   RUNNING |
+|              2881 | 45 |   RUNNING |   WAITING |
+|              2944 | 45 |   WAITING |     READY |
+|              2944 | 45 |     READY |   RUNNING |
+|              3008 | 45 |   RUNNING |   WAITING |
+|              3071 | 45 |   WAITING |     READY |
+|              3071 | 45 |     READY |   RUNNING |
+|              3135 | 45 |   RUNNING |   WAITING |
+|              3198 | 45 |   WAITING |     READY |
+|              3198 | 45 |     READY |   RUNNING |
+|              3262 | 45 |   RUNNING |   WAITING |
+|              3325 | 45 |   WAITING |     READY |
+|              3325 | 45 |     READY |   RUNNING |
+|              3389 | 45 |   RUNNING |   WAITING |
+|              3452 | 45 |   WAITING |     READY |
+|              3452 | 45 |     READY |   RUNNING |
+|              3516 | 45 |   RUNNING |   WAITING |
+|              3579 | 45 |   WAITING |     READY |
+|              3579 | 45 |     READY |   RUNNING |
+|              3643 | 45 |   RUNNING |   WAITING |
+|              3706 | 45 |   WAITING |     READY |
+|              3706 | 45 |     READY |   RUNNING |
+|              3732 | 45 |   RUNNING |TERMINATED |
++------------------------------------------------+
